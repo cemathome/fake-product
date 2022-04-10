@@ -1,0 +1,13 @@
+{
+    "name": "Fake Product",
+    "version": "0.0.1",
+    "description": "Node.js on Docker for Fake Product",
+    "author": "Cem Bozkurt <cem@agyoneticileri.org>",
+    "main": "example_code.js",
+    "scripts": {
+        "start": "node example_code.js"
+    },
+    "dependencies": {
+        "express": "^4.17.3"
+    }
+}
