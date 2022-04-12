@@ -16,7 +16,6 @@ services:
     environment:
       POSTGRES_PASSWORD: fp-postgres-pass
     volumes:
-      # - ./fp-postgres/postgresql.conf:/etc/postgresql/postgresql.conf
       - fp-pg-data:/var/lib/postgresql/data
 
 volumes:
